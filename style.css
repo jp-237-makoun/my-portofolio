@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #fff;
+}
+header{
+    background: #eee;
+    height: 60px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20PX;
+}
+.navbar a{
+    text-decoration: none;
+    color: #161616;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px;
+}
+.navbar a:hover{
+    transition: .5s;
+    cursor: pointer;
+    color: orange;
+}
+.logo{
+    color: orange;
+    font-size: 1.2em;
+}
+.logo:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;  
+}
+.btn:hover{
+    transition: .5s;
+    color: orange;
+    background: black;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+    margin: 25px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+.wrapper p{
+    text-shadow: 2px 0 3px;
+    font-size: 2rem;
+}
+.wrapper img{
+    border-radius: 50px;
+}
+.button{
+    display: flex;
+}
+.wrapper .btn{
+    margin: 9px;
+    font-size: large;
+    font-weight: bold;
+}
+
